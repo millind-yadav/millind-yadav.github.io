@@ -1,4 +1,4 @@
-Milind Yadav
+Milind Yadav \n
 AI & Machine Learning Engineer | Full-Stack Data Professional
 Hi there! 👋 I'm a data professional with over two years of experience building intelligent systems and scalable data solutions from the ground up. I specialize in the entire data lifecycle, from engineering robust pipelines to deploying predictive models that drive real business value.
 
