@@ -120,7 +120,7 @@ const experience = [
 
 const socials = [
   { id: 'github', label: 'GitHub', href: 'https://github.com/millind-yadav' },
-  { id: 'linkedin', label: 'LinkedIn', href: 'https://linkedin.com/in/millindyadav' },
+  { id: 'linkedin', label: 'LinkedIn', href: 'https://linkedin.com/in/millind-yadav' },
   { id: 'twitter', label: 'Twitter / X', href: 'https://x.com/47e59733c30549f?s=21' },
   { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/miilliindd?igsh=bnZiaDJkeXc2ejRh&utm_source=qr' }
 ];
