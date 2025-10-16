@@ -665,7 +665,7 @@ const App = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#000010]/20 via-transparent to-[#00f6ff]/10" />
                 <div className="relative p-6 text-xs uppercase tracking-[0.3em] text-white/50">
-                  <p>Dynamic Holographic Capture · Replace with personal portrait</p>
+                  
                 </div>
               </div>
             </div>
