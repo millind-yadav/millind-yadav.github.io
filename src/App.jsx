@@ -30,19 +30,19 @@ const projects = [
     demo: 'https://lexibot.ai'
   },
   {
-    title: 'BrewAssist · Internal AI Knowledge Copilot',
+    title: 'Morphometric Evolution of Foraminifera',
     description:
-      'LangChain + FastAPI assistant that indexes 50K+ operational documents for Brothers Drinks Co., cutting lookup time by 80% and serving 500+ weekly queries.',
+      'Unsupervised morphometric analysis of fossil foraminifera spanning 3M+ years to reveal evolutionary groupings linked to paleoenvironment change.',
     role:
-      'Designed the service-oriented RAG architecture, embedded adoption metrics, and delivered enablement guides that drove 85%+ engagement across teams.',
+      'Engineered an end-to-end workflow covering data wrangling, dimensionality reduction, clustering diagnostics, and statistical validation of evolutionary drivers.',
     challenges: [
-      'Maintaining grounded answers with QLoRA-tuned Mistral 7B and retrieval guardrails',
-      'Containerising pipelines and observability for high availability in production',
-      'Designing measurable rollout and training programmes for non-technical stakeholders'
+      'Harmonising stratigraphic measurements and taxonomy across millions of years for consistent morphometric comparisons',
+      'Designing PCA-driven representations and clustering experiments that surface distinct evolutionary morphotypes',
+      'Applying ANOVA and regression modelling to quantify relationships between morphology and paleoenvironment indicators'
     ],
-    tech: ['LangChain', 'FastAPI', 'React', 'Docker', 'Prometheus'],
-    github: 'https://github.com/millind-yadav/brewassist',
-    demo: 'https://brewassist.dev'
+    tech: ['Python', 'Pandas', 'scikit-learn', 'Matplotlib', 'Jupyter'],
+    github: 'https://github.com/millind-yadav/Morphometric-Evolution-of-Foraminifera',
+    demo: 'https://github.com/millind-yadav/Morphometric-Evolution-of-Foraminifera'
   },
   {
     title: 'Real-Time Fire Detection with Synthetic Data',
