@@ -7,11 +7,13 @@ const summaryIntro = `Full-stack Data & AI professional with 2+ years building g
 const summarySecondary = `My approach blends rapid prototyping with responsible AI adoption—designing observability, documentation, and enablement programmes that bring cross-functional partners along the journey. I focus on measurable ROI, pragmatic tooling, and trust-first AI experiences.`;
 
 const skillMatrix = {
-  'Programming & Languages': ['Python', 'SQL', 'R', 'Dart', 'Java'],
-  'Generative AI & LLMs': ['LLMs', 'LangChain', 'RAG Systems', 'Agentic Workflows', 'Prompt Engineering', 'Hugging Face', 'PEFT / LoRA / QLoRA', 'ChromaDB'],
-  'ML & Data Science': ['PyTorch', 'TensorFlow', 'Keras', 'scikit-learn', 'XGBoost', 'PySpark', 'NLP', 'Computer Vision'],
-  'MLOps & Platforms': ['Docker', 'FastAPI', 'MLflow', 'GitHub Actions', 'Azure', 'AWS', 'GCP (BigQuery, Vertex AI)', 'CI/CD & Monitoring']
+  'Data Engineering Core': ['Python', 'SQL', 'Spark / PySpark', 'ETL/ELT', 'Data Quality & Validation', 'Incremental Loads'],
+  'Cloud & Warehousing': ['AWS (EMR, S3, Redshift, RDS)', 'GCP (coursework/projects)', 'Warehouse Modeling', 'Reporting-Ready Datasets'],
+  'GenAI & RAG': ['RAG Systems', 'LangChain', 'Prompting', 'Vector DBs (ChromaDB)', 'Evaluation (precision/recall, hallucination checks)'],
+  'MLOps & Delivery': ['Docker', 'FastAPI', 'GitHub Actions', 'Testing (PyTest)', 'Monitoring/Logging (basics)'],
+  'Mobile / Other': ['Dart (Flutter)', 'Java (basics)']
 };
+
 
 const projects = [
   {
@@ -87,25 +89,28 @@ const education = [
 
 const experience = [
   {
-    title: 'AI Engineer Intern · Brothers Drinks Co. Ltd',
-    dates: 'Jun 2025 — Aug 2025',
-    location: 'Bristol, U.K.',
-    bullets: [
-      'Shipped an internal LangChain + FastAPI assistant that now answers 500+ weekly knowledge queries and saves 10 hours per teammate.',
-      'Designed enablement playbooks that onboarded 20+ staff and maintained 85%+ adoption with measurable ROI metrics.',
-      'Fine-tuned Mistral 7B with QLoRA and architected a monitored embedding pipeline across 50K+ documents for grounded responses.'
-    ]
-  },
+  title: 'AI Engineer Intern · Brothers Drinks Co. Ltd',
+  dates: 'Jun 2025 — Aug 2025',
+  location: 'Bristol, U.K.',
+  bullets: [
+    'Built an internal knowledge assistant using LangChain + FastAPI, backed by an ingestion/enrichment pipeline for company documents.',
+    'Implemented evaluation and prompt/version iteration to improve answer quality and reduce failure modes in day-to-day usage.',
+    'Shipped Dockerised services with basic monitoring/error handling; supported internal teams with ad-hoc data/assistant requests.'
+  ]
+}
+,
   {
-    title: 'Data Engineer · Onit India Pvt Ltd (Legal Tech)',
-    dates: 'Mar 2023 — Aug 2024',
-    location: 'Pune, IN',
-    bullets: [
-      'Built GCP-based PySpark and BigQuery platform processing 10M+ daily legal workflow records, accelerating analytics by 40%.',
-      'Partnered with legal operations and analytics teams to align AI opportunities, KPIs, and ROI across regulated environments.',
-      'Automated CI/CD and testing with GitHub Actions and PyTest, cutting production regressions by 80%.'
-    ]
-  },
+  title: 'Data Engineer · Onit India Pvt Ltd (Legal Tech)',
+  dates: 'Mar 2023 — Aug 2024',
+  location: 'Pune, IN',
+  bullets: [
+    'Built and maintained cloud data pipelines in Python/SQL with Spark/PySpark for reporting and operational analytics datasets.',
+    'Integrated external sources (APIs) and implemented incremental loads + performance tuning for warehouse/DB targets.',
+    'Covered weekly Jira support rotations: triaged pipeline failures/data issues, performed RCA, and delivered fix-forward changes.',
+    'Improved delivery reliability via GitHub Actions + testing, reducing repeat production issues across releases.'
+  ]
+},
+
   {
     title: 'Data Analyst Intern · NsembleAI',
     dates: 'Oct 2021 — Mar 2022',
