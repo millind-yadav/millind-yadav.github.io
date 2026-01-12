@@ -1023,7 +1023,7 @@ const App = () => {
                 Ready to build your data roadmap?
               </h2>
               <p className="mt-4 max-w-2xl text-sm leading-relaxed text-white/70 md:text-base">
-                I love partnering with legaltech, operations, and platform teams who want trustworthy generative AI, resilient data foundations, and measurable outcomes. Share your roadmap and let us co-design the release plan.
+                I enjoy partnering with data, operations, and platform teams who need scalable pipelines, trustworthy data assets, and practical AI-enabled workflows. If you're shaping a data roadmap or modernising cloud infrastructure, I’d love to collaborate.
               </p>
               <div className="mt-8 flex flex-wrap items-center gap-4">
                 <button
