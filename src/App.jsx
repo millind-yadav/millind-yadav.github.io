@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const heroName = 'Milind Yadav';
-const typingHeadline = 'Data & AI Engineer | Building Responsible Intelligent Systems';
+const typingHeadline = 'Data & AI Engineer | Enterprise Platforms & Migrations';
 const summaryIntro = `Full-stack Data & AI professional with 2+ years building generative AI and analytics products that ship to production. I specialise in RAG systems, LLM fine-tuning, and data platforms that accelerate decision-making for legal, operations, and content teams.`;
 const summarySecondary = `My approach blends rapid prototyping with responsible AI adoption—designing observability, documentation, and enablement programmes that bring cross-functional partners along the journey. I focus on measurable ROI, pragmatic tooling, and trust-first AI experiences.`;
 
