@@ -8,12 +8,11 @@ const summarySecondary = `My approach blends rapid prototyping with responsible 
 
 const skillMatrix = {
   'Data Engineering Core': ['Python', 'SQL', 'Spark / PySpark', 'ETL/ELT', 'Data Quality & Validation', 'Incremental Loads'],
-  'Cloud & Warehousing': ['AWS (EMR, S3, Redshift, RDS)', 'GCP (coursework/projects)', 'Warehouse Modeling', 'Reporting-Ready Datasets'],
-  'GenAI & RAG': ['RAG Systems', 'LangChain', 'Prompting', 'Vector DBs (ChromaDB)', 'Evaluation (precision/recall, hallucination checks)'],
-  'MLOps & Delivery': ['Docker', 'FastAPI', 'GitHub Actions', 'Testing (PyTest)', 'Monitoring/Logging (basics)'],
+  'Cloud & Platforms': ['AWS (EMR, Glue, Lambda, S3)', 'Redshift & RDS/PostgreSQL', 'Docker & CI/CD', 'Warehouse Modeling'],
+  'GenAI & RAG': ['RAG Systems', 'LangChain', 'Prompting', 'Vector DBs (ChromaDB)', 'Evaluation (precision/recall)'],
+  'Delivery & Ops': ['Agile/Scrum', 'Stakeholder Management', 'FastAPI', 'GitHub Actions', 'Monitoring/Logging'],
   'Mobile / Other': ['Dart (Flutter)', 'Java (basics)']
 };
-
 
 const projects = [
   {
