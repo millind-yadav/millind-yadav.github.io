@@ -712,7 +712,7 @@ const App = () => {
           >
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <div>
-                <p className="text-xs uppercase tracking-[0.4em] text-[#00f6ff]/70">// Neural Skill Constellation</p>
+                <p className="text-xs uppercase tracking-[0.4em] text-[#00f6ff]/70">// Skill Constellation</p>
            
                 <h2 className="mt-3 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
                     Technical expertise for enterprise-grade delivery.
