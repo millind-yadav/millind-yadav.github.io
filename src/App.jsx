@@ -675,17 +675,20 @@ const App = () => {
             </div>
             <div>
               <p className="text-xs uppercase tracking-[0.4em] text-[#39ff14]/80">// About Me</p>
-              <h2 className="mt-4 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
-                Crafting neural interfaces that feel human, adaptive, and alive.
-              </h2>
-              <div className="mt-6 space-y-4 text-sm leading-relaxed text-white/70 md:text-base">
-                <p>
-                  I deliver production-grade AI that legal and operations teams can rely on—whether that is a contract review copilot, an internal knowledge assistant, or a data platform fuelling analytics. My workflow spans discovery, rapid prototyping, and alignment with KPIs that stakeholders care about.
-                </p>
-                <p>
-                  Responsible adoption is table stakes. I document, observe, and enable users so AI products ship with clarity and trust. Recent wins include rolling out a LangChain assistant used company-wide, and building data quality frameworks that keep downstream models stable.
-                </p>
-              </div>
+             <h2 className="mt-4 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
+  Building scalable data platforms and intelligent systems that drive business growth.
+</h2>
+
+<div className="mt-6 space-y-4 text-sm leading-relaxed text-white/70 md:text-base">
+  <p>
+    I am a Data & AI Engineer who bridges the gap between technical execution and business value. 
+    With a background in enterprise ETL delivery and modern cloud architectures (AWS), I build reliable data assets that stakeholders can trust.
+  </p>
+  <p>
+    My approach is consulting-minded: I focus on clarifying scope, managing complex migrations, and ensuring downstream adoption. 
+    Whether optimizing Redshift performance or prototyping RAG systems, I prioritize measurable ROI and clear communication over just writing code.
+  </p>
+</div>
               <div className="mt-6 flex flex-wrap gap-2">
                 {['Generative AI', 'LLMs', 'RAG Systems', 'MLOps', 'Data Engineering', 'Responsible AI'].map((keyword) => (
                   <span
