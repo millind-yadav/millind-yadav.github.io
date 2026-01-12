@@ -649,7 +649,7 @@ const App = () => {
             </div>
           </motion.section>
 
-          <motion.section
+<motion.section
             id="about"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -657,54 +657,60 @@ const App = () => {
             transition={{ duration: 0.6 }}
             className="grid gap-12 md:grid-cols-[1.1fr_1.4fr] md:items-center"
           >
+            {/* LEFT COLUMN: Video */}
             <div className="relative">
-  {/* Outer glowing border */}
-  <div className="absolute -inset-4 rounded-3xl border border-[#00f6ff]/40 bg-white/5 backdrop-blur-md" />
-  
-  {/* Main Container */}
-  <div className="relative h-80 w-full overflow-hidden rounded-3xl border border-white/10 bg-[#050515]/70 md:h-[26rem]">
-    
-    {/* YOUR LOCAL VIDEO */}
-    <video
-      autoPlay
-      loop
-      muted
-      playsInline
-      className="absolute inset-0 h-full w-full object-cover opacity-90"
-    >
-      {/* Path starts with / because it is in the public folder */}
-      <source 
-        src="/Digital_Data_Stream_Video_Generation.mp4" 
-        type="video/mp4" 
-      />
-    </video>
+              {/* Outer glowing border */}
+              <div className="absolute -inset-4 rounded-3xl border border-[#00f6ff]/40 bg-white/5 backdrop-blur-md" />
+              
+              {/* Main Video Container */}
+              <div className="relative h-80 w-full overflow-hidden rounded-3xl border border-white/10 bg-[#050515]/70 md:h-[26rem]">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="absolute inset-0 h-full w-full object-cover opacity-90"
+                >
+                  <source 
+                    src="/Digital_Data_Stream_Video_Generation.mp4" 
+                    type="video/mp4" 
+                  />
+                </video>
 
-    {/* Gradient Overlay: Adds the blue tint and ensures text readability */}
-    <div className="absolute inset-0 bg-gradient-to-tr from-[#000010]/80 via-transparent to-[#00f6ff]/20" />
-    
-   
-</div>
+                {/* Gradient Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-tr from-[#000010]/80 via-transparent to-[#00f6ff]/20" />
+                
+                {/* AI Badge */}
+                <div className="absolute bottom-6 left-6 flex items-center gap-2 rounded-full border border-white/10 bg-black/40 px-3 py-1 backdrop-blur-md">
+                  <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#39ff14]" />
+                  <span className="text-[0.6rem] uppercase tracking-[0.2em] text-white/60">
+                    AI Generated // Veo
+                  </span>
+                </div>
+              </div>
+            </div>
 
-
-            
+            {/* RIGHT COLUMN: Text Content */}
             <div>
               <p className="text-xs uppercase tracking-[0.4em] text-[#39ff14]/80">// About Me</p>
-             <h2 className="mt-4 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
-  Engineering reliable data platforms and intelligent systems.
-</h2>
+              <h2 className="mt-4 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
+                Engineering reliable data platforms and intelligent systems.
+              </h2>
+              
+              <div className="mt-6 space-y-4 text-sm leading-relaxed text-white/70 md:text-base">
+                <p>
+                  I am a Data & AI Engineer who bridges the gap between technical execution and business value. 
+                  With a background in enterprise ETL delivery and modern cloud architectures (AWS), I build reliable data assets that stakeholders can trust.
+                </p>
+                <p>
+                  My approach is consulting-minded: I focus on clarifying scope, managing complex migrations, and ensuring downstream adoption. 
+                  Whether optimizing Redshift performance or prototyping RAG systems, I prioritize measurable ROI and clear communication over just writing code.
+                </p>
+              </div>
 
-<div className="mt-6 space-y-4 text-sm leading-relaxed text-white/70 md:text-base">
-  <p>
-    I am a Data & AI Engineer who bridges the gap between technical execution and business value. 
-    With a background in enterprise ETL delivery and modern cloud architectures (AWS), I build reliable data assets that stakeholders can trust.
-  </p>
-  <p>
-    My approach is consulting-minded: I focus on clarifying scope, managing complex migrations, and ensuring downstream adoption. 
-    Whether optimizing Redshift performance or prototyping RAG systems, I prioritize measurable ROI and clear communication over just writing code.
-  </p>
-</div>
+              {/* Tags */}
               <div className="mt-6 flex flex-wrap gap-2">
-                {['Generative AI', 'LLMs', 'RAG Systems', 'MLOps', 'Data Engineering', 'Responsible AI'].map((keyword) => (
+                {['Data Platforms', 'AWS & Cloud', 'RAG Systems', 'Consulting', 'Migrations', 'Python & SQL'].map((keyword) => (
                   <span
                     key={keyword}
                     className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.3em] text-white/60"
