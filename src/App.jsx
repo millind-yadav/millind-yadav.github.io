@@ -70,6 +70,7 @@ const education = [
     dates: 'Sep 2024 — Sep 2025',
     location: 'Bristol, U.K.',
     highlights: [
+      'Classification: Merit',
       'Key modules: AI & ML, Text Analytics, Natural Language Understanding, Hadoop & Spark, Visual Analytics, Cloud Computing.',
       'Fine-tuned BERT-family models for NLP tasks and deployed AWS text-processing applications for near real-time analysis.',
       'Explored domain-specific NLP pipelines to improve technical document understanding and compliance search.'
@@ -81,7 +82,8 @@ const education = [
     dates: 'Jun 2019 — Jul 2022',
     location: 'Nagpur, IN',
     highlights: [
-      'Graduated with CGPA 9.02/10 while building strong foundations in Data Structures & Algorithms, Databases, Statistics, and Machine Learning.',
+      'CGPA: 9.02/10',
+      'Built strong foundations in Data Structures & Algorithms, Databases, Statistics, and Machine Learning.',
       'Delivered hands-on coursework and labs spanning software engineering, automation, and analytics workflows.'
     ]
   }
