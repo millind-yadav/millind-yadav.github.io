@@ -682,14 +682,7 @@ const App = () => {
     {/* Gradient Overlay: Adds the blue tint and ensures text readability */}
     <div className="absolute inset-0 bg-gradient-to-tr from-[#000010]/80 via-transparent to-[#00f6ff]/20" />
     
-    {/* Optional: "AI Generated" Badge */}
-    <div className="absolute bottom-6 left-6 flex items-center gap-2 rounded-full border border-white/10 bg-black/40 px-3 py-1 backdrop-blur-md">
-      <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#39ff14]" />
-      <span className="text-[0.6rem] uppercase tracking-[0.2em] text-white/60">
-
-      </span>
-    </div>
-  </div>
+   
 </div>
 
 
