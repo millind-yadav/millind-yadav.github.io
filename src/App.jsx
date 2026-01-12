@@ -691,13 +691,12 @@ const App = () => {
               
               <div className="mt-6 space-y-4 text-sm leading-relaxed text-white/70 md:text-base">
                 <p>
-                  I am a Data & AI Engineer who bridges the gap between technical execution and business value. 
-                  With a background in enterprise ETL delivery and modern cloud architectures (AWS), I build reliable data assets that stakeholders can trust.
-                </p>
-                <p>
-                  My approach is consulting-minded: I focus on clarifying scope, managing complex migrations, and ensuring downstream adoption. 
-                  Whether optimizing Redshift performance or prototyping RAG systems, I prioritize measurable ROI and clear communication over just writing code.
-                </p>
+  I am a Data Engineer who builds scalable cloud pipelines, optimises data reliability, and enables analytics for enterprise teams. My experience spans AWS EMR, PySpark, SQL, Redshift, and API ingestion workflows that publish trusted datasets for business and product stakeholders.
+</p>
+<p>
+  My work is consulting-driven: I clarify requirements, identify edge cases early, and design processes that ensure smooth data migrations and operational adoption. Whether improving pipeline performance or integrating modern AI workflows, I focus on practical delivery and measurable outcomes.
+</p>
+
               </div>
 
               {/* Tags */}
