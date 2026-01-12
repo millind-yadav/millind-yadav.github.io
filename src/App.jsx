@@ -91,28 +91,26 @@ const education = [
 
 const experience = [
   {
-  title: 'AI Engineer Intern · Brothers Drinks Co. Ltd',
-  dates: 'Jun 2025 — Aug 2025',
-  location: 'Bristol, U.K.',
-  bullets: [
-    'Built an internal knowledge assistant using LangChain + FastAPI, backed by an ingestion/enrichment pipeline for company documents.',
-    'Implemented evaluation and prompt/version iteration to improve answer quality and reduce failure modes in day-to-day usage.',
-    'Shipped Dockerised services with basic monitoring/error handling; supported internal teams with ad-hoc data/assistant requests.'
-  ]
-}
-,
+    title: 'AI Engineer Intern · Brothers Drinks Co. Ltd',
+    dates: 'Jun 2025 — Aug 2025',
+    location: 'Bristol, U.K.',
+    bullets: [
+      'Delivered Proof-of-Concepts (PoCs) to validate AI feasibility, translating operational problems into measurable technical requirements.',
+      'Built an internal knowledge assistant (LangChain + FastAPI) and ran stakeholder discovery to define success criteria and reduce rework.',
+      'Implemented delivery guardrails (Docker, structured logging) to support the transition from prototype to production roadmap.'
+    ]
+  },
   {
-  title: 'Data Engineer · Onit India Pvt Ltd (Legal Tech)',
-  dates: 'Mar 2023 — Aug 2024',
-  location: 'Pune, IN',
-  bullets: [
-    'Built and maintained cloud data pipelines in Python/SQL with Spark/PySpark for reporting and operational analytics datasets.',
-    'Integrated external sources (APIs) and implemented incremental loads + performance tuning for warehouse/DB targets.',
-    'Covered weekly Jira support rotations: triaged pipeline failures/data issues, performed RCA, and delivered fix-forward changes.',
-    'Improved delivery reliability via GitHub Actions + testing, reducing repeat production issues across releases.'
-  ]
-},
-
+    title: 'Data Engineer · Onit India Pvt Ltd (Legal Tech)',
+    dates: 'Mar 2023 — Aug 2024',
+    location: 'Pune, IN',
+    bullets: [
+      'Delivered scalable ETL pipelines (PySpark on AWS EMR) to ingest real-time and batch data, publishing curated assets to Redshift/RDS.',
+      'Acted as a technical consultant for client migrations, managing source-to-target mapping, data reconciliation, and cutover checks.',
+      'Enhanced pipelines for SaaS integrations (e.g., Coupa), optimizing PostgreSQL performance to reduce reporting cycles from 5 days to 3.',
+      'Improved platform reliability via GitHub Actions and automated testing, significantly reducing production incidents.'
+    ]
+  },
   {
     title: 'Data Analyst Intern · NsembleAI',
     dates: 'Oct 2021 — Mar 2022',
