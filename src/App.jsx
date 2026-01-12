@@ -713,10 +713,10 @@ const App = () => {
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <div>
                 <p className="text-xs uppercase tracking-[0.4em] text-[#00f6ff]/70">// Neural Skill Constellation</p>
-                // Find the h2 inside <motion.section id="skills">
-<h2 className="mt-3 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
-  Technical expertise for enterprise-grade delivery.
-</h2>
+           
+                <h2 className="mt-3 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
+                    Technical expertise for enterprise-grade delivery.
+                </h2>
               </div>
               <GlowingDivider color="linear-gradient(90deg, rgba(0,246,255,0.6), rgba(255,0,255,0.4))" />
             </div>
