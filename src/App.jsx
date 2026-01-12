@@ -686,7 +686,7 @@ const App = () => {
     <div className="absolute bottom-6 left-6 flex items-center gap-2 rounded-full border border-white/10 bg-black/40 px-3 py-1 backdrop-blur-md">
       <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#39ff14]" />
       <span className="text-[0.6rem] uppercase tracking-[0.2em] text-white/60">
-        AI Generated // Veo
+
       </span>
     </div>
   </div>
