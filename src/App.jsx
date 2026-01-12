@@ -702,7 +702,7 @@ const App = () => {
 
               {/* Tags */}
               <div className="mt-6 flex flex-wrap gap-2">
-                {['Data Platforms', 'AWS & Cloud', 'RAG Systems', 'Consulting', 'Migrations', 'Python & SQL'].map((keyword) => (
+                {['Data Platforms', 'AWS & Cloud', 'ETL Pipelines', 'Spark / PySpark', 'Migrations', 'Python & SQL'].map((keyword) => (
                   <span
                     key={keyword}
                     className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.3em] text-white/60"
