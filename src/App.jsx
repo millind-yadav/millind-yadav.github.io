@@ -491,7 +491,7 @@ const App = () => {
 
   useEffect(() => {
     if (!isBooting) return undefined;
-    const timer = window.setTimeout(() => setIsBooting(false), 1500);
+    const timer = window.setTimeout(() => setIsBooting(false), 1000);
     return () => window.clearTimeout(timer);
   }, [isBooting]);
 
