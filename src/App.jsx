@@ -129,7 +129,7 @@ const socials = [
   { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/miilliindd?igsh=bnZiaDJkeXc2ejRh&utm_source=qr' }
 ];
 
-const contactEmail = 'milindyadav98@gmail.com';
+const contactEmail = 'milindyadav98@yahoo.com';
 
 const useTypewriter = (text, speed = 90, pause = 1800) => {
   const [output, setOutput] = useState('');
@@ -768,7 +768,7 @@ const App = () => {
               <div>
                 <p className="text-xs uppercase tracking-[0.4em] text-[#ff00ff]/70">// Signature Projects</p>
                 <h2 className="mt-3 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
-                  Immersive systems engineered for intelligence at scale
+                  Scalable solutions for complex data challenges.
                 </h2>
               </div>
               <GlowingDivider color="linear-gradient(90deg, rgba(255,0,255,0.5), rgba(57,255,20,0.6))" />
@@ -894,7 +894,7 @@ const App = () => {
               <div>
                 <p className="text-xs uppercase tracking-[0.4em] text-[#39ff14]/70">// Experience Timeline</p>
                 <h2 className="mt-3 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
-                  Leading high-stakes AI initiatives from inception to impact
+                  Delivering value across the data lifecycle
                 </h2>
               </div>
               <GlowingDivider color="linear-gradient(90deg, rgba(57,255,20,0.6), rgba(0,246,255,0.4))" />
@@ -959,7 +959,7 @@ const App = () => {
                   className="mt-3 text-3xl font-semibold text-white md:text-4xl"
                   style={{ fontFamily: "'Orbitron', sans-serif" }}
                 >
-                  Education that grounds responsible AI practice
+                  Academic Foundations
                 </h2>
               </div>
               <GlowingDivider color="linear-gradient(90deg, rgba(0,246,255,0.6), rgba(57,255,20,0.45))" />
@@ -1008,7 +1008,7 @@ const App = () => {
             <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-10 backdrop-blur-xl md:p-16">
               <p className="text-xs uppercase tracking-[0.4em] text-[#00f6ff]/80">Get In Touch</p>
               <h2 className="mt-4 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
-                Let us co-create the next intelligent frontier.
+                Ready to build your data roadmap?
               </h2>
               <p className="mt-4 max-w-2xl text-sm leading-relaxed text-white/70 md:text-base">
                 I love partnering with legaltech, operations, and platform teams who want trustworthy generative AI, resilient data foundations, and measurable outcomes. Share your roadmap and let us co-design the release plan.
