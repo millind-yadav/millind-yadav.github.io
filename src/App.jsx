@@ -658,21 +658,42 @@ const App = () => {
             className="grid gap-12 md:grid-cols-[1.1fr_1.4fr] md:items-center"
           >
             <div className="relative">
-              <div className="absolute -inset-4 rounded-3xl border border-[#00f6ff]/40 bg-white/5 backdrop-blur-md" />
-              <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-[#050515]/70">
-                <div
-                  className="h-80 bg-cover bg-center opacity-80 md:h-[26rem]"
-                  style={{
-                    backgroundImage:
-                      "url('https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=1200&q=80')"
-                  }}
-                />
-                <div className="absolute inset-0 bg-gradient-to-tr from-[#000010]/20 via-transparent to-[#00f6ff]/10" />
-                <div className="relative p-6 text-xs uppercase tracking-[0.3em] text-white/50">
-                  
-                </div>
-              </div>
-            </div>
+  {/* Outer glowing border */}
+  <div className="absolute -inset-4 rounded-3xl border border-[#00f6ff]/40 bg-white/5 backdrop-blur-md" />
+  
+  {/* Main Container */}
+  <div className="relative h-80 w-full overflow-hidden rounded-3xl border border-white/10 bg-[#050515]/70 md:h-[26rem]">
+    
+    {/* YOUR LOCAL VIDEO */}
+    <video
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="absolute inset-0 h-full w-full object-cover opacity-90"
+    >
+      {/* Path starts with / because it is in the public folder */}
+      <source 
+        src="/Digital_Data_Stream_Video_Generation.mp4" 
+        type="video/mp4" 
+      />
+    </video>
+
+    {/* Gradient Overlay: Adds the blue tint and ensures text readability */}
+    <div className="absolute inset-0 bg-gradient-to-tr from-[#000010]/80 via-transparent to-[#00f6ff]/20" />
+    
+    {/* Optional: "AI Generated" Badge */}
+    <div className="absolute bottom-6 left-6 flex items-center gap-2 rounded-full border border-white/10 bg-black/40 px-3 py-1 backdrop-blur-md">
+      <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#39ff14]" />
+      <span className="text-[0.6rem] uppercase tracking-[0.2em] text-white/60">
+        AI Generated // Veo
+      </span>
+    </div>
+  </div>
+</div>
+
+
+            
             <div>
               <p className="text-xs uppercase tracking-[0.4em] text-[#39ff14]/80">// About Me</p>
              <h2 className="mt-4 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
