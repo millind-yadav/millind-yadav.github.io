@@ -1040,7 +1040,7 @@ const App = () => {
         </main>
         <footer className="mx-auto mt-20 flex max-w-6xl flex-col items-center gap-4 px-6 pb-12 text-xs uppercase tracking-[0.3em] text-white/40">
           <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-          <p>© {new Date().getFullYear()} Milind Yadav · Neural Futures Crafted with Empathy</p>
+          <p>© {new Date().getFullYear()} Milind Yadav </p>
         </footer>
       </div>
     </div>
