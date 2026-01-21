@@ -2,14 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const heroName = 'Milind Yadav';
-const typingHeadline = 'Data & AI Engineer | Enterprise Platforms & Migrations';
-const summaryIntro = `Full-stack Data & AI professional with 2+ years building generative AI and analytics products that ship to production. I specialise in RAG systems, LLM fine-tuning, and data platforms that accelerate decision-making for legal, operations, and content teams.`;
-const summarySecondary = `My approach blends rapid prototyping with responsible AI adoption—designing observability, documentation, and enablement programmes that bring cross-functional partners along the journey. I focus on measurable ROI, pragmatic tooling, and trust-first AI experiences.`;
-
+const typingHeadline = 'AI & Machine Learning Engineer | Agentic Systems & RAG';
+const summaryIntro = `I believe the next evolution of AI isn't just about models that talk—it's about agents that do. I focus on bridging the gap between Generative AI prototypes and robust, production-grade Agentic Systems that solve complex enterprise problems.`;
+const summarySecondary = `My approach is grounded in years of Data Engineering experience—optimizing high-throughput pipelines to ensure 'Good AI' has 'Good Data'. I specialise in RAG pipelines, LoRA fine-tuning, and scalable microservices that deliver reliable, measurable intelligence.`;
 const skillMatrix = {
   'Data Engineering Core': ['Python', 'SQL', 'Spark / PySpark', 'ETL/ELT', 'Data Quality & Validation', 'Incremental Loads'],
   'Cloud & Platforms': ['AWS (EMR, Glue, Lambda, S3)', 'Redshift & RDS/PostgreSQL', 'Docker & CI/CD', 'Warehouse Modeling'],
-  'GenAI & RAG': ['RAG Systems', 'LangChain', 'Prompting', 'Vector DBs (ChromaDB)', 'Evaluation (precision/recall)'],
+  'GenAI & RAG': ['RAG Systems', 'LangChain', 'Prompting', 'Vector DBs (ChromaDB/FAISS)', 'Evaluation'],
   'Delivery & Ops': ['Agile/Scrum', 'Stakeholder Management', 'FastAPI', 'GitHub Actions', 'Monitoring/Logging'],
   'Mobile / Other': ['Dart (Flutter)', 'Java (basics)']
 };
