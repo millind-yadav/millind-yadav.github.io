@@ -93,7 +93,7 @@ const experience = [
     location: 'Bristol, U.K.',
     bullets: [
       'Delivered Proof-of-Concepts (PoCs) to validate AI feasibility, translating operational problems into measurable technical requirements.',
-      'Built an internal knowledge assistant (LangChain + FastAPI) and ran stakeholder discovery to define success criteria and reduce rework.',
+      'Built an internal knowledge assistant (LangChain + FastAPI) and ran stakeholder discovery to define success criteria.',
       'Implemented delivery guardrails (Docker, structured logging) to support the transition from prototype to production roadmap.'
     ]
   },
@@ -103,7 +103,7 @@ const experience = [
     location: 'Pune, IN',
     bullets: [
       'Delivered scalable ETL pipelines (PySpark on AWS EMR) to ingest real-time and batch data, publishing curated assets to Redshift/RDS.',
-      'Acted as a technical consultant for client migrations, managing source-to-target mapping, data reconciliation, and cutover checks.',
+      'Optimized high-throughput data pipelines, learning that "Good AI requires Good Data" by managing source-to-target mapping and data reconciliation.',
       'Enhanced pipelines for SaaS integrations (e.g., Coupa), optimizing PostgreSQL performance to reduce reporting cycles from 5 days to 3.',
       'Improved platform reliability via GitHub Actions and automated testing, significantly reducing production incidents.'
     ]
