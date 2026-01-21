@@ -17,17 +17,17 @@ const projects = [
   {
     title: 'Lexibot · Agentic Legal Contract Reviewer',
     description:
-      'Production-ready agentic RAG platform that accelerates legal contract review by combining LLaMA 3 with retrieval orchestration tuned on the CUAD dataset.',
+      'Autonomous agent designed to revolutionize enterprise contract review. Architected a RAG pipeline backed by vector embeddings to eliminate hallucinations, wrapped in a scalable FastAPI microservice.',
     role:
-      'Owned product scope, system architecture, and stakeholder alignment while designing evaluation loops that keep legal teams confident in AI guidance.',
+      'Engineered the system from the ground up, utilizing LoRA (Low-Rank Adaptation) to specialize LLaMA 3 models on the CUAD dataset for nuanced legal understanding.',
     challenges: [
-      'Domain adapting LLaMA 3 with LoRA fine-tuning for legal terminology and clause reasoning',
-      'Engineering high-recall retrieval pipelines that minimise false positives',
-      'Instrumenting agent evaluations (precision, recall, contradiction tracking) with W&B dashboards'
+      'Fine-tuning LLaMA 3 with LoRA to understand complex legal clauses (CUAD dataset)',
+      'Orchestrating Agentic routing patterns to manage context and decision flow',
+      'Containerizing the system via Docker for scalable, production-grade deployment'
     ],
-    tech: ['LLaMA 3', 'LangChain', 'FastAPI', 'Docker', 'Weaviate / ChromaDB'],
+    tech: ['LLaMA 3', 'LoRA', 'RAG', 'FastAPI', 'Docker', 'LangChain'],
     github: 'https://github.com/millind-yadav/lexibot',
-    demo: 'https://lexibot.ai'
+    demo: 'https://github.com/millind-yadav/lexibot'
   },
   {
     title: 'Morphometric Evolution of Foraminifera',
@@ -36,9 +36,9 @@ const projects = [
     role:
       'Engineered an end-to-end workflow covering data wrangling, dimensionality reduction, clustering diagnostics, and statistical validation of evolutionary drivers.',
     challenges: [
-      'Harmonising stratigraphic measurements and taxonomy across millions of years for consistent morphometric comparisons',
-      'Designing PCA-driven representations and clustering experiments that surface distinct evolutionary morphotypes',
-      'Applying ANOVA and regression modelling to quantify relationships between morphology and paleoenvironment indicators'
+      'Harmonising stratigraphic measurements and taxonomy across millions of years',
+      'Designing PCA-driven representations and clustering experiments',
+      'Applying ANOVA and regression modelling to quantify morphological relationships'
     ],
     tech: ['Python', 'Pandas', 'scikit-learn', 'Matplotlib', 'Jupyter'],
     github: 'https://github.com/millind-yadav/Morphometric-Evolution-of-Foraminifera',
@@ -57,10 +57,9 @@ const projects = [
     ],
     tech: ['PyTorch', 'YOLOv8', 'OpenCV', 'Weights & Biases', 'Docker'],
     github: 'https://github.com/millind-yadav/fire-detection',
-    demo: 'https://firewatch.ai'
+    demo: 'https://github.com/millind-yadav/fire-detection'
   }
 ];
-
 const education = [
   {
     institution: 'University of Bristol',
