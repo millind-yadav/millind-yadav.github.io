@@ -295,11 +295,11 @@ const NeuralNetworkBackground = () => {
           const dx = pointer.x - node.x;
           const dy = pointer.y - node.y;
           const dist = Math.hypot(dx, dy);
-          if (dist < 220) {
-            const force = (1 - dist / 220) * 0.016;
-            node.vx += dx * force;
-            node.vy += dy * force;
-            node.glow = Math.min(1, node.glow + 0.035);
+          if (dist < 260) {
+            const force = (1 - dist / 260) * 0.025;
+            node.vx -= dx * force;
+            node.vy -= dy * force;
+            node.glow = Math.min(1, node.glow + 0.05);
           }
         }
 
