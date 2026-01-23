@@ -6,11 +6,10 @@ const typingHeadline = 'AI & Machine Learning Engineer | Agentic Systems & RAG';
 const summaryIntro = `I believe the next evolution of AI isn't just about models that talk—it's about agents that do. I focus on bridging the gap between Generative AI prototypes and robust, production-grade Agentic Systems that solve complex enterprise problems.`;
 const summarySecondary = `My approach is grounded in years of Data Engineering experience—optimizing high-throughput pipelines to ensure 'Good AI' has 'Good Data'. I specialise in RAG pipelines, LoRA fine-tuning, and scalable microservices that deliver reliable, measurable intelligence.`;
 const skillMatrix = {
-  'Data Engineering Core': ['Python', 'SQL', 'Spark / PySpark', 'ETL/ELT', 'Data Quality & Validation', 'Incremental Loads'],
-  'Cloud & Platforms': ['AWS (EMR, Glue, Lambda, S3)', 'Redshift & RDS/PostgreSQL', 'Docker & CI/CD', 'Warehouse Modeling'],
-  'GenAI & RAG': ['RAG Systems', 'LangChain', 'Prompting', 'Vector DBs (ChromaDB/FAISS)', 'Evaluation'],
-  'Delivery & Ops': ['Agile/Scrum', 'Stakeholder Management', 'FastAPI', 'GitHub Actions', 'Monitoring/Logging'],
-  'Mobile / Other': ['Dart (Flutter)', 'Java (basics)']
+  'Generative AI & LLMs': ['Amazon Bedrock', 'Foundation Models', 'LangChain & LangGraph', 'Agentic Workflows', 'RAG Systems', 'Prompt Engineering'],
+  'Cloud & AI Infrastructure': ['AWS Cloud', 'SageMaker', 'Lambda & Serverless', 'Vector Databases', 'IAM & Security', 'Microservices'],
+  'Data Engineering': ['AWS Glue & EMR', 'Apache Spark / PySpark', 'Data Warehousing (Redshift)', 'ETL/ELT Workflows', 'Data Quality', 'SQL & NoSQL'],
+  'MLOps & Delivery': ['Model Evaluation', 'CI/CD Pipelines', 'Docker', 'FastAPI', 'Git/Version Control', 'Agile/Scrum']
 };
 
 const projects = [
@@ -117,6 +116,23 @@ const experience = [
       'Produced evaluation tooling to track precision, recall, and F1, guiding rapid model iteration.',
       'Delivered lightweight real-time monitoring that reduced manual compliance oversight.'
     ]
+  }
+];
+
+const certifications = [
+  {
+    title: 'AWS Certified Generative AI Developer - Professional',
+    issuer: 'Amazon Web Services (AWS)',
+    date: 'Issued Jan 2026',
+    badge: '/aws-gen-ai-cert.png',
+    link: 'https://www.credly.com/badges/76addde4-a8a0-4f8d-acd0-a0aaf74bebe4/public_url'
+  },
+  {
+    title: 'AWS Academy Graduate - Cloud Foundations',
+    issuer: 'Amazon Web Services (AWS)',
+    date: 'Issued Jan 202',
+    badge: '/aws-academy-graduate-cloud-foundations-training-bad.png',
+    link: 'https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-aws-academy-cloud-foundations'
   }
 ];
 
@@ -562,12 +578,13 @@ const App = () => {
               <p className="text-sm text-white/70">Building Responsible LegalTech Intelligence</p>
             </div>
           </motion.div>
-          <nav className="hidden gap-8 text-xs uppercase tracking-[0.3em] text-white/60 md:flex">
+          <nav className="hidden gap-4 text-xs uppercase tracking-[0.2em] text-white/60 lg:flex">
             <a href="#about" className="transition hover:text-[#00f6ff]">About</a>
             <a href="#skills" className="transition hover:text-[#00f6ff]">Skills</a>
             <a href="#projects" className="transition hover:text-[#00f6ff]">Projects</a>
             <a href="#experience" className="transition hover:text-[#00f6ff]">Experience</a>
             <a href="#education" className="transition hover:text-[#00f6ff]">Education</a>
+            <a href="#certifications" className="transition hover:text-[#00f6ff]">Certifications</a>
             <a href="#contact" className="transition hover:text-[#00f6ff]">Contact</a>
           </nav>
         </header>
@@ -684,22 +701,22 @@ const App = () => {
             <div>
               <p className="text-xs uppercase tracking-[0.4em] text-[#39ff14]/80">// About Me</p>
               <h2 className="mt-4 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
-                Engineering reliable data platforms and intelligent systems.
+                Building the next generation of intelligent systems.
               </h2>
               
               <div className="mt-6 space-y-4 text-sm leading-relaxed text-white/70 md:text-base">
                 <p>
-  I am a Data Engineer who builds scalable cloud pipelines, optimises data reliability, and enables analytics for enterprise teams. My experience spans AWS EMR, PySpark, SQL, Redshift, and API ingestion workflows that publish trusted datasets for business and product stakeholders.
-</p>
-<p>
-  My work is consulting-driven: I clarify requirements, identify edge cases early, and design processes that ensure smooth data migrations and operational adoption. Whether improving pipeline performance or integrating modern AI workflows, I focus on practical delivery and measurable outcomes.
-</p>
+                  I am an AI & Machine Learning Engineer specializing in building production-grade Generative AI solutions on AWS. With a strong foundation in Data Engineering, I bridge the gap between proof-of-concept models and scalable, reliable agentic systems.
+                </p>
+                <p>
+                   My focus is on leveraging Foundation Models, RAG architectures, and Amazon Bedrock to solve complex enterprise problems, ensuring that AI systems are not just intelligent but also robust, secure, and grounded in high-quality data.
+                </p>
 
               </div>
 
               {/* Tags */}
               <div className="mt-6 flex flex-wrap gap-2">
-                {['Data Platforms', 'AWS & Cloud', 'ETL Pipelines', 'Spark / PySpark', 'Migrations', 'Python & SQL'].map((keyword) => (
+                {['Generative AI', 'AWS Bedrock', 'Machine Learning', 'Data Engineering', 'Agentic Systems', 'Cloud Architecture'].map((keyword) => (
                   <span
                     key={keyword}
                     className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.3em] text-white/60"
@@ -1006,6 +1023,48 @@ const App = () => {
             </div>
           </motion.section>
 
+          <motion.section
+            id="certifications"
+            initial={{ opacity: 0, y: 28 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6 }}
+            className="relative"
+          >
+            <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+              <div>
+                <p className="text-xs uppercase tracking-[0.4em] text-[#ff00ff]/70">// Credentials</p>
+                <h2 className="mt-3 text-3xl font-semibold text-white md:text-4xl" style={{ fontFamily: "'Orbitron', sans-serif" }}>
+                  Certifications & Badges
+                </h2>
+              </div>
+              <GlowingDivider color="linear-gradient(90deg, rgba(255,0,255,0.6), rgba(0,246,255,0.45))" />
+            </div>
+            <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {certifications.map((cert) => (
+                <motion.a
+                  key={cert.title}
+                  href={cert.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  whileHover={{ y: -6 }}
+                  className="relative flex flex-col items-center gap-4 overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl transition hover:border-[#00f6ff]/40 hover:bg-[#00f6ff]/5 text-center"
+                >
+                  <div className="relative h-48 w-48 flex-shrink-0 p-2">
+                     <img src={cert.badge} alt={cert.title} className="h-full w-full object-contain drop-shadow-[0_0_15px_rgba(0,246,255,0.2)]" />
+                  </div>
+                  <div className="flex flex-col gap-2 items-center">
+                    <h3 className="text-xl font-semibold text-white leading-tight">
+                      {cert.title}
+                    </h3>
+                    <p className="text-xs uppercase tracking-[0.1em] text-white/50">{cert.issuer}</p>
+                    <p className="text-xs text-[#39ff14]/80">{cert.date}</p>
+                  </div>
+                </motion.a>
+              ))}
+            </div>
+          </motion.section>
+ 
           <motion.section
             id="contact"
             initial={{ opacity: 0, y: 28 }}
