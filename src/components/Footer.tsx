@@ -120,7 +120,7 @@ const Footer = () => {
           </p>
           <p className="text-xs font-mono text-black/40 flex items-center justify-center gap-2 uppercase tracking-widest text-center md:text-right">
             Designed & Engineered with{" "}
-            <Heart className="w-3.5 h-3.5 text-black fill-black animate-heartbeat inline-block" />{" "}
+            <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500 animate-heartbeat inline-block" />{" "}
             by Milind
           </p>
         </div>

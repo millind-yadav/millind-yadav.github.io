@@ -122,7 +122,7 @@ const Finale = () => {
             <span className="whitespace-nowrap">Designed & Engineered</span>
             <span className="flex items-center gap-2">
               <span>with</span>
-              <Heart className="w-3.5 h-3.5 text-black fill-black animate-heartbeat inline-block" />
+              <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500 animate-heartbeat inline-block" />
               <span>by Milind</span>
             </span>
           </div>
