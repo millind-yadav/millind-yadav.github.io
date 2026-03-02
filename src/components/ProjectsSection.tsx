@@ -5,8 +5,16 @@ import { Badge } from "./ui/badge";
 
 const projects = [
   {
-    title: "Lexibot · Agentic Legal Contract Reviewer",
+    title: "Multi-Modal Local LLM Chat Assistant",
     isNew: true,
+    description:
+      "A fully local, privacy-first AI chat app running entirely on-device. React + FastAPI + Ollama serving open-source LLMs with real-time SSE streaming. Smart query router dispatches to direct LLM inference, live DuckDuckGo web search, or RAG over uploaded PDFs via ChromaDB. Voice I/O via Whisper (STT) and gTTS (TTS), persistent multi-session history in SQLite.",
+    tags: ["Python", "FastAPI", "LangChain", "Ollama", "ChromaDB", "React", "TypeScript", "Whisper"],
+    githubUrl: "https://github.com/millind-yadav/MULTI_MODAL_LOCAL_LLM",
+    liveUrl: "https://github.com/millind-yadav/MULTI_MODAL_LOCAL_LLM",
+  },
+  {
+    title: "Lexibot · Agentic Legal Contract Reviewer",
     description:
       "Autonomous agent designed to revolutionise enterprise contract review. Architected a RAG pipeline backed by vector embeddings to eliminate hallucinations, wrapped in a scalable FastAPI microservice.",
     tags: ["LLaMA 3", "LoRA", "RAG", "FastAPI", "Docker", "LangChain"],
