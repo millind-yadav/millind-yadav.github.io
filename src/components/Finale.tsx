@@ -20,7 +20,7 @@ const Finale = () => {
     },
     {
       icon: Mail,
-      href: "mailto:milindyadav98@yahoo.com",
+      href: "mailto:milindyadav98@gmail.com",
       label: "Email",
     },
     {

@@ -27,7 +27,7 @@ const ContactSection = () => {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText("milindyadav98@yahoo.com");
+    navigator.clipboard.writeText("milindyadav98@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -53,7 +53,7 @@ const ContactSection = () => {
                   Email
                 </p>
                 <p className="font-mono text-sm break-all">
-                  milindyadav98@yahoo.com
+                  milindyadav98@gmail.com
                 </p>
               </div>
               <button
