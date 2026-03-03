@@ -87,7 +87,7 @@ const Finale = () => {
             <a
               key={link.label}
               href={link.href}
-              target={link.href.startsWith("mailto:") ? "_self" : "_blank"}
+              target={link.href.startsWith("mailto:") ? undefined : "_blank"}
               rel="noopener noreferrer"
               className="group flex flex-col items-center justify-center p-8 border-2 border-black bg-white hover:bg-black transition-all duration-300 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px]"
             >
