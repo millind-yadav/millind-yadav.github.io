@@ -11,14 +11,14 @@ const experiences = [
   {
     role: "Data Engineer",
     company: "Onit India Pvt Ltd (Legal Tech)",
-    period: "[OCT 2021 – MAR 2022 · NAGPUR, IN]",
+    period: "[MAR 2023 – AUG 2024 · Pune, IN]",
     description:
       "Delivered scalable ETL pipelines (PySpark on AWS EMR) to ingest real-time and batch data, publishing curated assets to Redshift/RDS. Optimized high-throughput data pipelines by managing source-to-target mapping and data reconciliation. Enhanced pipelines for SaaS integrations (Coupa), optimizing PostgreSQL performance to reduce reporting cycles from 5 days to 3. Improved platform reliability via GitHub Actions and automated testing, significantly reducing production incidents.",
   },
   {
     role: "Data Analyst Intern",
     company: "NsembleAI",
-    period: "[NAGPUR, IN]",
+    period: "[OCT 2021 – MAR 2022 · Nagpur, IN]",
     description:
       "Improved PPE detection accuracy by 15% using YOLO and OpenCV with curated augmentation pipelines. Produced evaluation tooling to track precision, recall, and F1, guiding rapid model iteration. Delivered lightweight real-time monitoring that reduced manual compliance oversight.",
   },
