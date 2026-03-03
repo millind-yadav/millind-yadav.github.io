@@ -15,13 +15,13 @@ const AboutSection = () => (
         </p>
         <p className="body-text max-w-2xl mt-6">
           My focus is on leveraging Foundation Models, RAG architectures, and
-          Amazon Bedrock to solve complex enterprise problems — ensuring that AI
+          Amazon Bedrock to solve complex enterprise problems ensuring that AI
           systems are not just intelligent but also robust, secure, and grounded
           in high-quality data.
         </p>
         <p className="body-text max-w-2xl mt-6 mb-8">
           I believe the next evolution of AI isn't just about models that
-          talk — it's about <strong>agents that do</strong>. My approach is
+          talk it's about <strong>agents that do</strong>. My approach is
           grounded in years of Data Engineering experience, ensuring 'Good AI'
           always has 'Good Data' underneath it.
         </p>

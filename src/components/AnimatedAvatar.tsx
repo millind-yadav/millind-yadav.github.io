@@ -14,7 +14,8 @@ const AnimatedAvatar = () => {
           <img
             src="/images/avatar.png"
             alt="Milind Yadav"
-            className="w-full h-full object-cover object-top"
+            className="w-full h-full object-cover"
+            style={{ objectPosition: "center 65%", transform: "translateY(7%)" }}
             loading="eager"
           />
         </div>
