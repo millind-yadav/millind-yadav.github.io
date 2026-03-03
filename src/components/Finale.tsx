@@ -87,7 +87,7 @@ const Finale = () => {
             <a
               key={link.label}
               href={link.href}
-              target="_blank"
+              target={link.href.startsWith("mailto:") ? "_self" : "_blank"}
               rel="noopener noreferrer"
               className="group flex flex-col items-center justify-center p-8 border-2 border-black bg-white hover:bg-black transition-all duration-300 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px]"
             >
@@ -107,7 +107,7 @@ const Finale = () => {
             </span>
           </div>
           <p className="text-xs font-mono text-black/70 uppercase tracking-widest leading-loose max-w-sm">
-            From India 🇮🇳 to the World 🌍 • Crafting Scalable Digital Products
+            From India 🇮🇳 to the World 🌍 • Crafting Scalable AI Products
           </p>
         </div>
       </div>
@@ -119,7 +119,7 @@ const Finale = () => {
             © {currentYear} Milind Yadav
           </p>
           <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-[10px] md:text-[11px] font-mono text-black uppercase tracking-[0.1em] md:tracking-[0.2em] text-center md:text-right font-medium">
-            <span className="whitespace-nowrap">Designed & Engineered</span>
+            <span className="whitespace-nowrap">Engineered</span>
             <span className="flex items-center gap-2">
               <span>with</span>
               <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500 animate-heartbeat inline-block" />
