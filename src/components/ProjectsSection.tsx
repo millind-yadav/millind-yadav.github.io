@@ -37,6 +37,14 @@ const projects = [
     githubUrl: "https://github.com/millind-yadav",
     liveUrl: "https://milindyadav.me",
   },
+  {
+    title: "Demand Forecasting Using Machine Learning",
+    description:
+      "Replaces traditional statistical methods (ARIMA, SARIMA, SMA) with ensemble and boosting regressors for retail demand prediction. Reframes time series as a supervised regression problem via lag feature engineering, trains Random Forest and XGBoost regressors, and tunes hyper-parameters with RandomizedSearchCV — achieving R² scores that closely track actual weekly sales across stores and SKUs.",
+    tags: ["Python", "scikit-learn", "XGBoost", "Pandas", "NumPy", "Matplotlib", "Jupyter"],
+    githubUrl: "https://github.com/millind-yadav/Demand_Forecasting_Using_ML",
+    liveUrl: "https://github.com/millind-yadav/Demand_Forecasting_Using_ML",
+  },
 ];
 
 const ProjectsSection = () => (
